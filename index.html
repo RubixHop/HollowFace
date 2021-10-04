@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+
+<title> This project </title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body> 
+
+<header>
+
+     <img src="bg2.jpg" class="banner">
+     <a href="#" class="logo">Hollow.</a>
+    <div class="toggle"></div>
+
+
+
+     <nav>
+             <ul>
+             <li><a href="#">Home</a></li>
+             <li><a href="#">Music</a></li>
+             <li><a href="#">Projects</a></li>
+             <li><a href="#">Contact</a></li>
+            </ul>        
+     </nav>
+
+     
+</header>
+
+<section>
+    
+    <h2>About Us !</h2>
+    <p>Hey! Welcome to our website :D</p>
+    <p>Our goal is to promote and market the most underrated producers and artists from all around the world! We have come across many producers who have so much potential and talent with their music, however, in today's age, many great artists lack the skills of marketing, competition and target audience. Hollow Face Records will help you become recognized and gain a true following! </p>
+
+    <img src="img2.jpg" class="img2">
+    
+
+
+    <h2>What can we provide.</h2>
+    <p class="white">.</p>
+    <p>> Setting up the right kind of content</p>
+    <p>> Advertise to the right audience</p>
+    <p>> Create media content for you!</p>
+    <p>> Teach and match the algorithm</p>
+    <p>> Make it professional! Make it COOL!</p>
+
+</section>
+
+
+<article class="makers">
+    <h3>The Makers Of Hollow Face!</h3>
+    <p> William Sterling / Rubix Hop</p>
+<div class="container">
+    <div class="photo">
+        <img src="rubix.jpg">
+    </div>
+    <div class="text">
+        <h3>Rubix is a Dubstep, Glitch Hop and EDM producer!</h3>
+        <p1>Rubix Hop grew up in Southampton England and later moved to Phuket Thailand</p1>
+        <p>He started his music career in 2014, learning and understanding everything about modern electronic music! To this day he has made many tracks, worked alongside/ collaborated with many other producers and record labels such as Reinelex!</p>
+        <h3> These are some of his most famous tracks !</h3>
+    </div>
+</div>
+</article>
+
+
+
+
+
+
+<script>
+    window.addEventListener("scroll",function(){
+        const header = document.querySelector('header');
+        header.classList.toggle('sticky', window.scrollY > 0);
+    });
+
+    window.addEventListener("scroll",function(){
+        const header = document.querySelector('article');
+        article.classList.toggle('sticky', window.scrollY > 0);
+    });
+
+ 
+    const navigation = document.querySelector('nav');
+    document.querySelector('.toggle').onclick = function(){
+        this.classList.toggle('active');  
+        navigation.classList.toggle('active');
+    }
+
+</script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
